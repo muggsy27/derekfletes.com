@@ -10,7 +10,7 @@ import {
 import { Analytics } from "@vercel/analytics/react";
 
 
-import styles from "./tailwind.css";
+import styles from "../app/tailwind.css";
 
 export const links = () => [
   { rel: "stylesheet", href: styles },
