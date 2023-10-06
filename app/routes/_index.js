@@ -100,16 +100,540 @@ export default function Index() {
           </ul>
         </div>
       </div>
-      <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Hello there</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn btn-primary">Get Started</button>
+      <section class="block">
+        <div class="px-5 md:px-10">
+          <div class="mx-auto w-full max-w-7xl">
+            <div class="py-12 md:py-16 lg:py-20">
+              <div class="grid grid-cols-1 gap-12 sm:gap-20 lg:grid-cols-2">
+                <div class="flex flex-col items-start gap-2">
+                  <div class="">
+                    <div class="flex flex-col items-start">
+                      <div class="flex flex-col items-start gap-2">
+                        <div class="flex grid-cols-2 items-center rounded-md bg-[#c4c4c4] px-3 py-1">
+                          <div class="h-2 w-2 min-w-[8px] rounded-full bg-black"></div>
+                          <div class="text-sm sm:text-sm">
+                            Available for work
+                          </div>
+                        </div>
+                        <p class="flex-col text-sm text-[#808080] sm:text-xl">
+                          Developer &amp; UX Specialist
+                        </p>
+                        <h1 class="mb-5 text-4xl font-bold md:mb-6 md:text-6xl lg:mb-8">
+                          Jonathan Smith
+                        </h1>
+                        <p class="flex-col text-sm text-[#808080] sm:text-xl">
+                          Consectetur adipiscing elit duis tristique
+                          sollicitudin nibh. Augue mauris augue neque gravida in
+                          fermentum. Sapien pellentesque habitant morbi
+                          tristique pellentesque.
+                        </p>
+                      </div>
+                      <div class="mb-8 mt-8 h-px w-full bg-black"></div>
+                      <div class="mb-5 flex flex-col items-start gap-2 md:mb-6 lg:mb-8">
+                        <p class="flex-col text-[#808080] max-[479px]:text-sm">
+                          <strong>2020: </strong>Site of the year in
+                          Awwwards.com
+                        </p>
+                        <p class="flex-col text-[#808080] max-[479px]:text-sm">
+                          <strong>2020: </strong>Site of the year in
+                          Awwwards.com
+                        </p>
+                      </div>
+                      <div class="mb-6 flex flex-wrap items-center justify-start gap-4 md:mb-10 lg:mb-12">
+                        <a
+                          href="#"
+                          class="flex max-w-full items-center justify-center gap-2.5 p-0 text-center text-sm font-bold uppercase tracking-[0.2px] text-black"
+                        >
+                          <div>All Achievements </div>
+                          <img
+                            src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b1465d46adaf3f26099edf_arrow.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                        </a>
+                      </div>
+                      <div class="flex flex-wrap items-center justify-start gap-4">
+                        <a
+                          href="#"
+                          class="flex max-w-full flex-row items-center justify-center gap-4 bg-black px-6 py-3 text-center font-semibold text-white"
+                        >
+                          <img
+                            src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                          <div>Email Me</div>
+                        </a>
+                        <a
+                          href="#"
+                          class="flex max-w-full flex-row items-center justify-center gap-4 border border-solid border-black px-6 py-3 text-center font-semibold text-black"
+                        >
+                          <img
+                            src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b14704c8616ad7ba080fe0_Note.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                          <div>Resume</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="min-h-[530px] overflow-hidden rounded-md bg-[#f2f2f7]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="pl-10 pr-10 max-[767px]:pl-5 max-[767px]:pr-5">
+        <div class="ml-auto mr-auto w-full max-w-7xl">
+          <div class="pb-32 pt-32 max-[991px]:pb-24 max-[991px]:pt-24 max-[767px]:pb-16 max-[767px]:pt-16">
+            <h5 class="mb-0 mt-0 text-xl font-semibold leading-normal">
+              My tech stack
+            </h5>
+            <div class="p-12 max-[991px]:p-10 max-[767px]:p-6 max-[479px]:pl-0 max-[479px]:pr-0 max-[479px]:pt-0"></div>
+            <div class="grid auto-cols-[1fr] grid-cols-[1fr_1fr_1fr_1fr_1fr] grid-rows-[auto] gap-6 max-[767px]:grid-cols-[1fr_1fr_1fr] max-[767px]:gap-12 max-[479px]:grid-cols-[1fr_1fr] max-[479px]:justify-items-start max-[479px]:gap-8">
+              <div
+                id="w-node-_17d9f4ef-2c09-ce8f-666a-2c1694ef20ad-25f8d583"
+                class="flex items-center justify-center [grid-area:span_1_/_span_1_/_span_1_/_span_1]"
+              >
+                <img
+                  src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b03aedf8d5a0_Microsoft%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="inline-block max-w-full"
+                />
+              </div>
+              <div
+                id="w-node-_17d9f4ef-2c09-ce8f-666a-2c1694ef20af-25f8d583"
+                class="flex items-center justify-center [grid-area:span_1_/_span_1_/_span_1_/_span_1]"
+              >
+                <img
+                  src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b0620ef8d5a5_PayPal%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="inline-block max-w-full"
+                />
+              </div>
+              <div
+                id="w-node-_17d9f4ef-2c09-ce8f-666a-2c1694ef20b1-25f8d583"
+                class="flex items-center justify-center [grid-area:span_1_/_span_1_/_span_1_/_span_1]"
+              >
+                <img
+                  src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b00612f8d5a4_Google%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="inline-block max-w-full"
+                />
+              </div>
+              <div
+                id="w-node-_17d9f4ef-2c09-ce8f-666a-2c1694ef20b3-25f8d583"
+                class="flex items-center justify-center [grid-area:span_1_/_span_1_/_span_1_/_span_1]"
+              >
+                <img
+                  src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b0582cf8d599_Chase%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="inline-block max-w-full"
+                />
+              </div>
+              <div
+                id="w-node-_17d9f4ef-2c09-ce8f-666a-2c1694ef20b5-25f8d583"
+                class="flex items-center justify-center [grid-area:span_1_/_span_1_/_span_1_/_span_1]"
+              >
+                <img
+                  src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63904f663019b0484ef8d59a_Walmart%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="inline-block max-w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="block bg-[#f7f6f2]">
+        <div class="px-5 md:px-10">
+          <div class="mx-auto w-full max-w-7xl">
+            <div class="py-16 md:py-24 lg:py-32">
+              <div class="mx-auto max-w-3xl text-center">
+                <h2 class="mb-4 mt-6 text-3xl font-extrabold md:text-5xl">
+                  Make every step user-centric
+                </h2>
+                <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
+                  <p class="text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam,purus sit amet luctus magna fringilla urna
+                  </p>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 sm:justify-items-stretch md:grid-cols-3 md:gap-4 lg:gap-6">
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a287_Circle%20Image.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Support</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a285_Circle%20Image-1.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Organise</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a286_Circle%20Image-2.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Flexibility</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a283_Circle%20Image-3.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Speed</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a284_Circle%20Image-4.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Quality</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6 rounded-xl border border-[#cdcdcd] bg-white p-8 transition hover:[box-shadow:rgba(0,_0,_0,_0.38)_4px_4px_20px_-14px] md:p-10">
+                  <img
+                    src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a288_Circle%20Image-5.svg"
+                    alt="Features Icon"
+                    class="inline-block h-16 max-w-full"
+                  />
+                  <div class="text-xl font-semibold">Resource</div>
+                  <div class="text-sm text-[#636262]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam, purus sit.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="px-5 md:px-10">
+          <div class="mx-auto w-full max-w-5xl">
+            <div class="py-16 md:py-24 lg:py-32">
+              <div class="flex flex-col items-stretch gap-20">
+                <div class="flex flex-col gap-5 text-center">
+                  <h2 class="text-3xl font-bold md:text-5xl">
+                    Short heading goes here
+                  </h2>
+                  <p class="max-[479px]:text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  </p>
+                </div>
+                <div class="">
+                  <div class="grid-cols-1 [column-count:2] max-[991px]:gap-x-8 max-[767px]:[column-count:1] md:grid-cols-2">
+                    <div class="mb-12 inline-block border border-solid border-[#cdcdcd] md:mb-8 lg:mb-10">
+                      <div class="flex h-full flex-col text-black">
+                        <div class="w-full">
+                          <img
+                            src="https://assets.website-files.com/624380709031623bfe4aee60/6243807090316262904aee69_Placeholder%20Image%20-%20Landscape.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                        </div>
+                        <div class="px-5 py-8 sm:px-6">
+                          <div class="flex flex-col gap-3">
+                            <h5 class="text-xl font-bold">Project name here</h5>
+                            <div class="flex-col text-[#808080]">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit ut aliquam, purus sit amet luctus venenatis,
+                              lectus magna fringilla urna
+                            </div>
+                          </div>
+                          <div class="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEB DESIGN</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>UI / UX</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEBFLOW</div>
+                            </div>
+                          </div>
+                          <div class="flex flex-wrap items-center justify-between gap-4">
+                            <a
+                              href="#"
+                              class="flex max-w-full items-center justify-center gap-2.5 p-0 text-center text-sm font-bold uppercase tracking-[0.2px] text-black"
+                            >
+                              <div>VISIT WEBSITE</div>
+                              <img
+                                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                                alt=""
+                                class="inline-block max-w-full"
+                              />
+                            </a>
+                            <a
+                              href="#"
+                              class="inline-block cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"
+                            >
+                              View Project
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-12 inline-block border border-solid border-[#cdcdcd] md:mb-8 lg:mb-10">
+                      <div class="flex h-full flex-col text-black">
+                        <div class="w-full">
+                          <img
+                            src="https://assets.website-files.com/624380709031623bfe4aee60/6243807090316262904aee69_Placeholder%20Image%20-%20Landscape.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                        </div>
+                        <div class="px-5 py-8 sm:px-6">
+                          <div class="flex flex-col gap-3">
+                            <h5 class="text-xl font-bold">Project name here</h5>
+                            <div class="flex-col text-[#808080]">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit ut aliquam, purus sit amet luctus venenatis,
+                              lectus magna fringilla urna
+                            </div>
+                          </div>
+                          <div class="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEB DESIGN</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>UI / UX</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEBFLOW</div>
+                            </div>
+                          </div>
+                          <div class="flex flex-wrap items-center justify-between gap-4">
+                            <a
+                              href="#"
+                              class="flex max-w-full items-center justify-center gap-2.5 p-0 text-center text-sm font-bold uppercase tracking-[0.2px] text-black"
+                            >
+                              <div>VISIT WEBSITE</div>
+                              <img
+                                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                                alt=""
+                                class="inline-block max-w-full"
+                              />
+                            </a>
+                            <a
+                              href="#"
+                              class="inline-block cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"
+                            >
+                              View Project
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-12 inline-block border border-solid border-[#cdcdcd] md:mb-8 lg:mb-10">
+                      <div class="flex h-full flex-col text-black">
+                        <div class="w-full">
+                          <img
+                            src="https://assets.website-files.com/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                        </div>
+                        <div class="px-5 py-8 sm:px-6">
+                          <div class="flex flex-col gap-3">
+                            <h5 class="text-xl font-bold">Project name here</h5>
+                            <div class="flex-col text-[#808080]">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit ut aliquam, purus sit amet luctus venenatis,
+                              lectus magna fringilla urna
+                            </div>
+                          </div>
+                          <div class="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEB DESIGN</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>UI / UX</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEBFLOW</div>
+                            </div>
+                          </div>
+                          <div class="flex flex-wrap items-center justify-between gap-4">
+                            <a
+                              href="#"
+                              class="flex max-w-full items-center justify-center gap-2.5 p-0 text-center text-sm font-bold uppercase tracking-[0.2px] text-black"
+                            >
+                              <div>VISIT WEBSITE</div>
+                              <img
+                                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                                alt=""
+                                class="inline-block max-w-full"
+                              />
+                            </a>
+                            <a
+                              href="#"
+                              class="inline-block cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"
+                            >
+                              View Project
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-12 inline-block border border-solid border-[#cdcdcd] md:mb-8 lg:mb-10">
+                      <div class="flex h-full flex-col text-black">
+                        <div class="w-full">
+                          <img
+                            src="https://assets.website-files.com/624380709031623bfe4aee60/6243807090316262904aee69_Placeholder%20Image%20-%20Landscape.svg"
+                            alt=""
+                            class="inline-block max-w-full"
+                          />
+                        </div>
+                        <div class="px-5 py-8 sm:px-6">
+                          <div class="flex flex-col gap-3">
+                            <h5 class="text-xl font-bold">Project name here</h5>
+                            <div class="flex-col text-[#808080]">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit ut aliquam, purus sit amet luctus venenatis,
+                              lectus magna fringilla urna
+                            </div>
+                          </div>
+                          <div class="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEB DESIGN</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>UI / UX</div>
+                            </div>
+                            <div class="rounded-sm bg-[#d9d9d9] p-2 text-sm font-semibold uppercase text-[#636262]">
+                              <div>WEBFLOW</div>
+                            </div>
+                          </div>
+                          <div class="flex flex-wrap items-center justify-between gap-4">
+                            <a
+                              href="#"
+                              class="flex max-w-full items-center justify-center gap-2.5 p-0 text-center text-sm font-bold uppercase tracking-[0.2px] text-black"
+                            >
+                              <div>VISIT WEBSITE</div>
+                              <img
+                                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                                alt=""
+                                class="inline-block max-w-full"
+                              />
+                            </a>
+                            <a
+                              href="#"
+                              class="inline-block cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"
+                            >
+                              View Project
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="px-5 md:px-10">
+        <div class="mx-auto w-full max-w-7xl">
+          <div class="py-12 md:py-16 lg:py-20">
+            <div class="flex flex-col items-stretch gap-[70px]">
+              <div class="flex flex-col items-center gap-5 text-center">
+                <div class="flex items-center justify-center rounded-[80px] border border-solid border-[#cfe9e7] bg-[#e7eaf1] px-5 py-2 text-sm font-semibold uppercase text-black">
+                  How it works
+                </div>
+                <h2 class="text-3xl font-bold md:text-5xl">
+                  We're Here to Assist You
+                </h2>
+                <p class="text-[#575757]">
+                  Got questions or need assistance?
+                  <br />
+                  We're here to help you make the most of your marketing
+                  efforts.
+                </p>
+              </div>
+              <div class="grid grid-cols-1 gap-[58px] max-[991px]:gap-x-8 max-[767px]:gap-y-12 md:grid-cols-3">
+                <div class="flex w-full flex-col items-center gap-6 rounded-2xl border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px]">
+                  <img
+                    src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6a5cb6fdbf914c127_contact%201.svg"
+                    alt=""
+                    class="inline-block h-24 w-24 max-w-full rounded-[100%]"
+                  />
+                  <a
+                    href="tel:+11114434534"
+                    class="text-lg font-bold text-[#002d40] lg:text-2xl"
+                  >
+                    +11114434534
+                  </a>
+                </div>
+                <div class="flex w-full flex-col items-center gap-6 rounded-2xl border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px]">
+                  <img
+                    src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb621086db3a081d24d_contact%202.svg"
+                    alt=""
+                    class="inline-block h-24 w-24 max-w-full rounded-[100%]"
+                  />
+                  <a
+                    href="mailto:Email@email.co"
+                    class="text-lg font-bold text-[#002d40] lg:text-2xl"
+                  >
+                    Email@email.co
+                  </a>
+                </div>
+                <div class="flex w-full flex-col items-center gap-6 rounded-2xl border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px]">
+                  <img
+                    src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6b01ee5b8427e76d9_contact%203.svg"
+                    alt=""
+                    class="inline-block h-24 w-24 max-w-full rounded-[100%]"
+                  />
+                  <a
+                    href="tel:+11114434534"
+                    class="text-lg font-bold text-[#002d40] lg:text-2xl"
+                  >
+                    Address
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
