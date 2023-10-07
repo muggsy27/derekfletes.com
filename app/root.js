@@ -1,4 +1,3 @@
-import { cssBundleHref } from "@remix-run/css-bundle";
 import {
   Links,
   LiveReload,
@@ -9,12 +8,12 @@ import {
 } from "@remix-run/react";
 import { Analytics } from "@vercel/analytics/react";
 
-
 import styles from "../app/tailwind.css";
 
-export const links = () => [
-  { rel: "stylesheet", href: styles },
-];
+export const links = () => [{ rel: "stylesheet", href: styles }];
+
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -26,11 +25,13 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <Nav />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
         <Analytics />
+        <Footer />
       </body>
     </html>
   );
