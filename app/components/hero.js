@@ -3,7 +3,7 @@ import RemixLogo from "../assets/remix-logo";
 import ReactLogo from "../assets/react-logo";
 import TailwindLogo from "../assets/tailwind-logo";
 import ShopifyLogo from "../assets/shopify-logo";
-import MysqlLogo from "../assets/mysql-logo";
+import FigmaLogo from "../assets/figma-logo";
 
 import {
   DocumentTextIcon,
@@ -13,8 +13,8 @@ import {
 
 export default function Hero() {
   return (
-    <section className="py-12 lg:py-24">
-      <div className="container">
+    <section className="bg-hero-pattern py-12 lg:py-24">
+      <div className="container max-w-screen-xl">
         <div className="flex flex-col gap-8 lg:grid lg:grid-cols-2">
           <div className="flex flex-col items-start gap-4 lg:justify-center lg:gap-8">
             <div className="flex flex-col items-start gap-2">
@@ -23,7 +23,7 @@ export default function Hero() {
                 <p>Available for work</p>
               </div>
               <p className="text-lg">Full-Stack Developer</p>
-              <h1 className="text-6xl font-black">Derek Fletes</h1>
+              <h1 className="text-5xl font-black lg:text-7xl">Derek Fletes</h1>
             </div>
             <div>
               <p className="text-lg">
@@ -33,20 +33,20 @@ export default function Hero() {
               </p>
             </div>
             <div className="flex gap-4">
-              <button className="btn">
-                <EnvelopeIcon className="w-6" />
-                <p>Email Me</p>
-              </button>
-              <button className="btn">
+              <button className="btn btn-primary">
                 <DocumentTextIcon className="w-6" />
                 <p>Resume</p>
+              </button>
+              <button className="btn btn-neutral">
+                <EnvelopeIcon className="w-6" />
+                <p>Email Me</p>
               </button>
             </div>
           </div>
           <img src={hero} className="shadow-2x mask mask-squircle" />
         </div>
-        <div className="flex flex-col gap-12 py-24">
-          <h2 className="text-center text-5xl font-bold">My tech stack</h2>
+        <div className="mx-auto flex flex-col gap-12 pt-24 lg:w-6/12">
+          <h2 className="text-center text-5xl font-bold">My Tech Stack</h2>
           <div className="flex flex-wrap items-center gap-4">
             <div className="flex flex-1 justify-center">
               <RemixLogo />
@@ -60,8 +60,8 @@ export default function Hero() {
             <div className="flex flex-1 justify-center">
               <ShopifyLogo />
             </div>
-            <div className="flex flex-1 justify-center">
-              <MysqlLogo />
+            <div className="flex max-h-10 flex-1 justify-center">
+              <FigmaLogo />
             </div>
           </div>
         </div>
