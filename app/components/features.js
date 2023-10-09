@@ -48,7 +48,7 @@ export default function Features() {
         <div className="flex flex-col gap-8 lg:grid lg:grid-cols-3">
           {cardData.map((card, key) => (
             <div
-              className="card border border-[#a6adba33] bg-neutral shadow-xl hover:cursor-pointer hover:bg-neutral-focus"
+              className="card border border-[#a6adba33] bg-neutral shadow-xl lg:hover:cursor-pointer lg:hover:bg-neutral-focus"
               key={key}
             >
               <div className="card-body items-start gap-6">

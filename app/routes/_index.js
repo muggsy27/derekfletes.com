@@ -7,6 +7,7 @@ import {
 
 import Hero from "../components/hero";
 import Features from "../components/features";
+import Portfolio from "../components/portfolio";
 
 export const meta = () => {
   return [
@@ -19,6 +20,7 @@ export default function Index() {
   return (
     <main>
       <Hero />
+      <Portfolio />
       <Features />
     </main>
   );

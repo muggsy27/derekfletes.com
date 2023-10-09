@@ -22,7 +22,7 @@ export default function Nav() {
               <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
             </svg>
           </label>
-          <ul className="flex hidden gap-6 text-lg lg:flex">
+          <ul className="hidden gap-6 text-lg lg:flex">
             {/* Sidebar content here */}
             <li>
               <a href="#about">About</a>
