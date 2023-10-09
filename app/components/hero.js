@@ -1,9 +1,9 @@
 import hero from "../assets/portfolio-hero.jpg";
-import RemixLogo from "../assets/remix-logo";
-import ReactLogo from "../assets/react-logo";
-import TailwindLogo from "../assets/tailwind-logo";
-import ShopifyLogo from "../assets/shopify-logo";
-import FigmaLogo from "../assets/figma-logo";
+import RemixLogo from "../assets/remix-logo.png";
+import ReactLogo from "../assets/react-logo.png";
+import TailwindLogo from "../assets/tailwind-logo.png";
+import ShopifyLogo from "../assets/shopify-logo.png";
+import VercelLogo from "../assets/vercel-logo.png";
 
 import {
   DocumentTextIcon,
@@ -45,23 +45,23 @@ export default function Hero() {
           </div>
           <img src={hero} className="shadow-2x mask mask-squircle" />
         </div>
-        <div className="mx-auto flex flex-col gap-12 pt-24 lg:w-6/12">
+        <div className="mx-auto flex flex-col gap-12 pt-24 lg:w-10/12">
           <h2 className="text-center text-5xl font-bold">My Tech Stack</h2>
-          <div className="flex flex-wrap items-center gap-4">
-            <div className="flex flex-1 justify-center">
-              <RemixLogo />
+          <div className="flex flex-wrap items-center gap-8 lg:grid lg:grid-cols-5">
+            <div className="flex flex-1 basis-1/2 justify-center">
+              <img src={RemixLogo} alt="" />
             </div>
-            <div className="flex flex-1 justify-center">
-              <ReactLogo />
+            <div className="flex flex-1 basis-1/3 justify-center">
+              <img src={ReactLogo} alt="" />
             </div>
-            <div className="flex flex-1 justify-center">
-              <TailwindLogo />
+            <div className="flex flex-1 basis-1/3 justify-center">
+              <img src={TailwindLogo} alt="" />
             </div>
-            <div className="flex flex-1 justify-center">
-              <ShopifyLogo />
+            <div className="flex flex-1 basis-1/3 justify-center">
+              <img src={ShopifyLogo} alt="" />
             </div>
-            <div className="flex max-h-10 flex-1 justify-center">
-              <FigmaLogo />
+            <div className="flex max-h-10 flex-1 basis-1/3 justify-center">
+              <img src={VercelLogo} alt="" />
             </div>
           </div>
         </div>

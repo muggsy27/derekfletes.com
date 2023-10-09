@@ -1,37 +1,47 @@
-import { CodeBracketIcon } from "@heroicons/react/24/outline";
-import { ShoppingCartIcon } from "@heroicons/react/24/outline";
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
+import { ShoppingCartIcon } from "@heroicons/react/24/solid";
+import { PaintBrushIcon } from "@heroicons/react/24/solid";
+import { CircleStackIcon } from "@heroicons/react/24/solid";
+import { PresentationChartLineIcon } from "@heroicons/react/24/solid";
+import { Square3Stack3DIcon } from "@heroicons/react/24/solid";
 
 export default function Features() {
   const cardData = [
     {
       title: "Full Stack Development",
-      description: "This is the description for Card 1.",
-      icon: <CodeBracketIcon className="w-8 stroke-info" />,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <CodeBracketIcon className="w-8 fill-info" />,
     },
     {
       title: "Ecommerce",
-      description: "This is the description for Card 2.",
-      icon: <ShoppingCartIcon className="w-8 stroke-info" />,
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <ShoppingCartIcon className="w-8 fill-info" />,
     },
     {
-      title: "Card Title",
-      description: "This is the description for Card 3.",
-      icon: "code",
+      title: "Content Management Systems",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <Square3Stack3DIcon className="w-8 fill-info" />,
     },
     {
-      title: "Card Title",
-      description: "This is the description for Card 4.",
-      icon: "code",
+      title: "UX/UI Design",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <PaintBrushIcon className="w-8 fill-info" />,
     },
     {
-      title: "Card Title",
-      description: "This is the description for Card 5.",
-      icon: "code",
+      title: "Databases",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <CircleStackIcon className="w-8 fill-info" />,
     },
     {
-      title: "Card Title",
-      description: "This is the description for Card 6.",
-      icon: "code",
+      title: "Marketing",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
+      icon: <PresentationChartLineIcon className="w-8 fill-info" />,
     },
   ];
 
