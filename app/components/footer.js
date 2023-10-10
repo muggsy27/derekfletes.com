@@ -35,7 +35,7 @@ export default function Footer() {
               <p className="text-2xl font-black">Derek Fletes</p>
             </div>
             <div>
-              <p>Full-Stack Web Developer</p>
+              <p>Full-Stack Developer</p>
             </div>
           </aside>
           <nav className="flex flex-col gap-4">

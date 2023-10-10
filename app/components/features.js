@@ -49,7 +49,7 @@ export default function Features() {
     <section className="py-12 lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-12">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="text-center text-5xl font-bold">What I Do</h2>
+          <h2 className="text-center text-5xl font-bold">Skills & Services</h2>
           <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut
             aliquam,purus sit amet luctus magna fringilla urna

@@ -8,6 +8,8 @@ import {
 import Hero from "../components/hero";
 import Features from "../components/features";
 import Portfolio from "../components/portfolio";
+import Testimonials from "../components/testimonials";
+import Faq from "../components/faq";
 
 export const meta = () => {
   return [
@@ -22,6 +24,8 @@ export default function Index() {
       <Hero />
       <Portfolio />
       <Features />
+      <Faq />
+      <Testimonials />
     </main>
   );
 }
