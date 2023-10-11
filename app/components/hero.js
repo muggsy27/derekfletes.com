@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section className="bg-hero-pattern py-12 lg:py-24">
       <div className="container max-w-screen-xl">
-        <div className="flex flex-col gap-8 lg:grid lg:grid-cols-2">
+        <div className="flex flex-col gap-12 lg:grid lg:grid-cols-2">
           <div className="flex flex-col items-start gap-4 lg:justify-center lg:gap-8">
             <div className="flex flex-col items-start gap-2">
               <div className="alert alert-info inline-flex w-auto gap-1 px-2 py-1">
@@ -46,7 +46,7 @@ export default function Hero() {
           <img src={hero} className="shadow-2x mask mask-squircle" />
         </div>
         <div className="mx-auto flex flex-col gap-12 pt-24 lg:w-10/12">
-          <h2 className="text-center text-5xl font-bold">Tech Stack</h2>
+          <h2 className="text-center text-5xl font-black">Tech Stack</h2>
           <div className="flex flex-wrap items-center gap-8 lg:grid lg:grid-cols-5">
             <div className="flex flex-1 basis-1/3 justify-center">
               <RemixLogo />

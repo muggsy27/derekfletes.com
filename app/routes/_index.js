@@ -7,6 +7,7 @@ import {
 
 import Hero from "../components/hero";
 import Features from "../components/features";
+import AboutMe from "../components/about";
 import Portfolio from "../components/portfolio";
 import Testimonials from "../components/testimonials";
 import Faq from "../components/faq";
@@ -22,6 +23,7 @@ export default function Index() {
   return (
     <main>
       <Hero />
+      <AboutMe />
       <Portfolio />
       <Features />
       <Faq />

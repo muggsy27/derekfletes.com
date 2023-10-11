@@ -1,4 +1,4 @@
-import { CodeBracketIcon } from "@heroicons/react/24/solid";
+import { CodeBracketSquareIcon } from "@heroicons/react/24/solid";
 import { ShoppingCartIcon } from "@heroicons/react/24/solid";
 import { PaintBrushIcon } from "@heroicons/react/24/solid";
 import { CircleStackIcon } from "@heroicons/react/24/solid";
@@ -11,7 +11,7 @@ export default function Features() {
       title: "Full Stack Development",
       description:
         "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,purus sit amet luctus magna fringilla urna",
-      icon: <CodeBracketIcon className="w-8 fill-info" />,
+      icon: <CodeBracketSquareIcon className="w-8 fill-info" />,
     },
     {
       title: "Ecommerce",
@@ -48,8 +48,8 @@ export default function Features() {
   return (
     <section className="py-12 lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-12">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-center text-5xl font-bold">Skills & Services</h2>
+        <div className="flex flex-col items-center gap-8">
+          <h2 className="text-center text-5xl font-black">Skills & Services</h2>
           <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut
             aliquam,purus sit amet luctus magna fringilla urna

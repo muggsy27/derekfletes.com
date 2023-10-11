@@ -24,8 +24,8 @@ export default function Testimonials() {
   return (
     <section className="py-12 lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-12">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-center text-5xl font-bold">Testimonials</h2>
+        <div className="flex flex-col items-center gap-8">
+          <h2 className="text-center text-5xl font-black">Testimonials</h2>
           <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut
             aliquam,purus sit amet luctus magna fringilla urna
