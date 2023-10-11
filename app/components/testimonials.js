@@ -63,7 +63,7 @@ export default function Testimonials() {
                     type="radio"
                     name="rating-1"
                     className="mask mask-star bg-info"
-                    checked
+                    defaultChecked
                   />
                 </div>
                 <p>{testimonial.review}</p>

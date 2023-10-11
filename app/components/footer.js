@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-neutral py-12 text-neutral-content lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-24">
         <div className="mx-auto flex w-full flex-col gap-12 lg:w-6/12">
-          <h2 className="text-center text-5xl font-bold">Contact Me</h2>
+          <h2 className="text-center text-5xl font-black">Contact Me</h2>
           <form className="flex flex-col gap-4">
             <div>
               <label className="label">

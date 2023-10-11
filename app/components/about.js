@@ -5,13 +5,13 @@ export default function AboutMe() {
   const listItems = [
     "A/B Testing",
     "UX/UI Design",
-    "Brand development ",
+    "Ecommerce ",
     "CMS development",
     "Graphic design",
     "SEO",
   ];
   return (
-    <section className="py-12 lg:py-24">
+    <section className="bg-neutral py-12 lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-12 lg:grid lg:grid-cols-2">
         <div>
           <img src={about} className="shadow-2x mask mask-squircle" />
