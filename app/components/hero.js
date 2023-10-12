@@ -5,11 +5,9 @@ import TailwindLogo from "../assets/tailwind-logo";
 import ShopifyLogo from "../assets/shopify-logo";
 import PostgresLogo from "../assets/postgres-logo";
 
-import {
-  DocumentTextIcon,
-  EnvelopeIcon,
-  ExclamationCircleIcon,
-} from "@heroicons/react/24/outline";
+import { DocumentTextIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+
+import { ExclamationCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Hero() {
   return (

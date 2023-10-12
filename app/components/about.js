@@ -11,7 +11,7 @@ export default function AboutMe() {
     "SEO",
   ];
   return (
-    <section className="bg-neutral py-12 lg:py-24">
+    <section className="bg-neutral py-12 lg:py-24" id="about">
       <div className="container flex max-w-screen-xl flex-col gap-12 lg:grid lg:grid-cols-2">
         <div>
           <img src={about} className="shadow-2x mask mask-squircle" />
@@ -26,16 +26,14 @@ export default function AboutMe() {
             souvenir cups, and discounted refills have made Flowbite synonymous
             with great music, good vibes, and starting the best party in town.
           </p>
-          <p>
-            <ul className="grid grid-cols-2 gap-8">
-              {listItems.map((item, key) => (
-                <li className="flex items-center gap-1" key={key}>
-                  <CheckCircleIcon className="w-4 text-success" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </p>
+          <ul className="grid grid-cols-2 gap-8">
+            {listItems.map((item, key) => (
+              <li className="flex items-center gap-1" key={key}>
+                <CheckCircleIcon className="w-4 text-success" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

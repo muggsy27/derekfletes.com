@@ -1,4 +1,8 @@
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowTopRightOnSquareIcon,
+  ArrowRightIcon,
+  ArrowLeftIcon,
+} from "@heroicons/react/24/solid";
 import dashboard from "../assets/dashboard.jpg";
 import agency from "../assets/agency-landing-page-dark.jpg";
 import mail from "../assets/mail-management-system-dark.jpg";
@@ -10,15 +14,13 @@ import JavaScriptIcon from "../assets/javascript-icon";
 import TailwindIcon from "../assets/tailwind-icon";
 import ReactIcon from "../assets/react-icon";
 import WordpressIcon from "../assets/wordpress-icon";
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 
 export default function Portfolio() {
   return (
-    <section className="py-12 lg:py-24">
+    <section className="py-12 lg:py-24" id="portfolio">
       <div className="container flex max-w-screen-xl flex-col gap-12">
         <div className="flex flex-col items-center gap-8">
-          <h2 className="text-center text-5xl font-black">Previous Work</h2>
+          <h2 className="text-center text-5xl font-black">Portfolio</h2>
           <p className="lg:text-center">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut
             aliquam,purus sit amet luctus magna fringilla urna

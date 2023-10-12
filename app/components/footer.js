@@ -2,7 +2,10 @@ import MainLogo from "../assets/main-logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral py-12 text-neutral-content lg:py-24">
+    <footer
+      className="bg-neutral py-12 text-neutral-content lg:py-24"
+      id="contact"
+    >
       <div className="container flex max-w-screen-xl flex-col gap-24">
         <div className="mx-auto flex w-full flex-col gap-12 lg:w-6/12">
           <h2 className="text-center text-5xl font-black">Contact Me</h2>

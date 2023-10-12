@@ -1,9 +1,11 @@
-import { CodeBracketSquareIcon } from "@heroicons/react/24/solid";
-import { ShoppingCartIcon } from "@heroicons/react/24/solid";
-import { PaintBrushIcon } from "@heroicons/react/24/solid";
-import { CircleStackIcon } from "@heroicons/react/24/solid";
-import { PresentationChartLineIcon } from "@heroicons/react/24/solid";
-import { Square3Stack3DIcon } from "@heroicons/react/24/solid";
+import {
+  CodeBracketSquareIcon,
+  ShoppingCartIcon,
+  PaintBrushIcon,
+  CircleStackIcon,
+  PresentationChartLineIcon,
+  Square3Stack3DIcon,
+} from "@heroicons/react/24/solid";
 
 export default function Features() {
   const cardData = [
@@ -49,7 +51,7 @@ export default function Features() {
     <section className="py-12 lg:py-24">
       <div className="container flex max-w-screen-xl flex-col gap-12">
         <div className="flex flex-col items-center gap-8">
-          <h2 className="text-center text-5xl font-black">Skills & Services</h2>
+          <h2 className="text-center text-5xl font-black">Skills</h2>
           <p className="lg:text-center">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut
             aliquam,purus sit amet luctus magna fringilla urna

@@ -47,13 +47,13 @@ export default function App() {
             <ul className="menu min-h-full w-80 bg-base-200 p-4 text-lg">
               {/* Sidebar content here */}
               <li>
-                <a>About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a>Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
