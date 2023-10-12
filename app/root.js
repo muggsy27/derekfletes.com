@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+
 import { Analytics } from "@vercel/analytics/react";
 
 import styles from "../app/tailwind.css";
@@ -25,6 +26,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <Analytics />
       </head>
       <body>
         <div className="drawer">
@@ -35,7 +37,6 @@ export default function App() {
             <ScrollRestoration />
             <Scripts />
             <LiveReload />
-            <Analytics />
             <Footer />
           </div>
           <div className="drawer-side">
