@@ -17,7 +17,7 @@ export default function Pricing() {
     {
       name: "Intermediate",
       description: "Best option for personal use & for your next project.",
-      price: "$24.99",
+      price: "$49.99",
       features: [
         "Individual configuration",
         "No setup, or hidden fees",

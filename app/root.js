@@ -16,8 +16,6 @@ export const links = () => [{ rel: "stylesheet", href: styles }];
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 
-import { XMarkIcon } from "@heroicons/react/24/outline";
-
 export default function App() {
   return (
     <html lang="en">
