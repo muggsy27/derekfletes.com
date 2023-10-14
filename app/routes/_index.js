@@ -15,14 +15,16 @@ export const meta = () => {
 
 export default function Index() {
   return (
-    <main>
-      <Hero />
-      <AboutMe />
-      <Portfolio />
-      <Features />
-      <Pricing />
-      <Faq />
-      <Testimonials />
-    </main>
+    <div>
+      <main>
+        <Hero />
+        <AboutMe />
+        <Portfolio />
+        <Features />
+        <Pricing />
+        <Faq />
+        <Testimonials />
+      </main>
+    </div>
   );
 }
