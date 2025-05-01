@@ -19,12 +19,9 @@ export default function Portfolio() {
   return (
     <section className="py-12 lg:py-24" id="portfolio">
       <div className="container flex max-w-screen-xl flex-col gap-12">
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col items-center gap-8 max-w-3xl m-auto">
           <h2 className="text-center text-5xl font-black">Portfolio</h2>
-          <p className="lg:text-center">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-            aliquam,purus sit amet luctus magna fringilla urna
-          </p>
+          <p className="lg:text-center">Here’s a selection of my recent front-end projects—ranging from custom websites to interactive web apps. Each one reflects my focus on clean code, responsive design, and thoughtful user experience. I aim to create intuitive interfaces that not only look great but perform seamlessly across all devices.</p>
         </div>
         <div className="flex flex-col gap-24">
           <div className="flex flex-col gap-12 lg:grid lg:grid-cols-2">
@@ -73,14 +70,13 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="items- flex flex-col items-start justify-center gap-6">
-              <h2 className="text-2xl font-bold">Flowbite Dashboard</h2>
+              <h2 className="text-2xl font-bold">Bloom Studio – Creative Portfolio Website</h2>
               <a className="link-info link flex items-center gap-1">
                 <span>https://flowbite.com/</span>
                 <ArrowTopRightOnSquareIcon className="w-4" />
               </a>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam,purus sit amet luctus magna fringilla urna
+              A modern, mobile-first website for a design agency showcasing their work, team, and services. Built with smooth scroll animations, a dynamic project gallery, and optimized for fast loading times.
               </p>
               <div className="flex gap-4">
                 <HtmlIcon />
@@ -95,14 +91,13 @@ export default function Portfolio() {
           </div>
           <div className="flex flex-col-reverse gap-12 lg:grid lg:grid-flow-row-dense lg:grid-cols-2">
             <div className="items- flex flex-col items-start justify-center gap-6">
-              <h2 className="text-2xl font-bold">Flowbite Dashboard</h2>
+              <h2 className="text-2xl font-bold">ShopNest</h2>
               <a className="link-info link flex items-center gap-1">
                 <span>https://flowbite.com/</span>
                 <ArrowTopRightOnSquareIcon className="w-4" />
               </a>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam,purus sit amet luctus magna fringilla urna
+              A fully responsive ecommerce site built for a boutique retailer. Features include a product catalog, cart functionality, Stripe payments, and an integrated CMS for easy product updates.
               </p>
               <div className="flex gap-4">
                 <HtmlIcon />
@@ -205,14 +200,13 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="items- flex flex-col items-start justify-center gap-6">
-              <h2 className="text-2xl font-bold">Flowbite Dashboard</h2>
+              <h2 className="text-2xl font-bold">Mindful - Therapist Website with Blog & Booking</h2>
               <a className="link-info link flex items-center gap-1">
                 <span>https://flowbite.com/</span>
                 <ArrowTopRightOnSquareIcon className="w-4" />
               </a>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam,purus sit amet luctus magna fringilla urna
+              A clean, accessible website for a private practice therapist. Includes service pages, an SEO-friendly blog, and embedded booking via Calendly. Designed to build trust and drive client engagement.
               </p>
               <div className="flex gap-4">
                 <HtmlIcon />

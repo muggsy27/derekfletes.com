@@ -25,20 +25,22 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-lg">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+                Crafting clean, responsive, and user-focused websites for 5+ years. I specialize in turning ideas into interactive, accessible digital experiences using HTML, CSS, JavaScript, NextJS.
               </p>
             </div>
             <div className="flex gap-4">
-              <button className="btn btn-primary">
-                <DocumentTextIcon className="w-6" />
-                <p>Resume</p>
-              </button>
+              <a target="_blank" href="/derek-fletes-resume-2025.pdf">
+                <button className="btn btn-primary">
+                  <DocumentTextIcon className="w-6" />
+                  <p>Resume</p>
+                </button>
+              </a>
+              <a href="mailto:derekfletes@gmail.com">
               <button className="btn btn-neutral">
                 <EnvelopeIcon className="w-6" />
                 <p>Email Me</p>
               </button>
+              </a>
             </div>
           </div>
           <img src={hero} className="shadow-2x mask mask-squircle" />

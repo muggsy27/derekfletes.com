@@ -8,7 +8,7 @@ import Faq from "../components/faq";
 
 export const meta = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Derek Fletes | Frontend Developer" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };

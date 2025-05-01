@@ -20,12 +20,9 @@ export default function AboutMe() {
           <h2 className="text-center text-5xl font-black lg:text-left">
             About Me
           </h2>
-          <p>
-            Since 1984, Flowbite has been serving up grab-and-go frozen
-            daiquiris from its stores across the U.S. Its signature drinks,
-            souvenir cups, and discounted refills have made Flowbite synonymous
-            with great music, good vibes, and starting the best party in town.
-          </p>
+          <p>I'm a front-end developer with over 5 years of experience building responsive, accessible, and user-centered websites. My focus is on writing clean, maintainable code and creating seamless user experiences using HTML, CSS, JavaScript, and modern tools like React and Tailwind CSS.</p>
+          <p>Over the years, I’ve worked with agencies and clients across industries—from small businesses to large-scale projects—translating ideas into functional, performant websites. I take pride in bridging the gap between design and development, collaborating closely with teams to deliver digital products that not only look great but work flawlessly.</p>
+          <p>When I’m not coding, you can find me learning about new front-end technologies, refining my UI/UX skills, or exploring creative ways to improve web performance.</p>
           <ul className="grid grid-cols-2 gap-8">
             {listItems.map((item, key) => (
               <li className="flex items-center gap-1" key={key}>
