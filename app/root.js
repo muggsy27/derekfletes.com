@@ -19,33 +19,33 @@ export const links = () => [{ rel: "stylesheet", href: styles }];
 
 import Nav from "./components/nav";
 import MainLogo from "./assets/main-logo";
-import { json } from "@remix-run/node";
+// import { json } from "@remix-run/node";
 
-export async function action({ request }) {
-  const formData = await request.formData();
-  const name = formData.get("name");
-  const email = formData.get("email");
-  const message = formData.get("message");
+// export async function action({ request }) {
+//   const formData = await request.formData();
+//   const name = formData.get("name");
+//   const email = formData.get("email");
+//   const message = formData.get("message");
 
-  console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+//   console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
 
-  try {
-    const data = await resend.emails.send({
-      from: "onboarding@resend.dev",
-      to: "derekfletes@gmail.com",
-      subject: "New Contact Form Submission",
-      html: `
-    <p>Name: ${name}</p>
-    <p>Email: ${email}</p>
-    <p>Message: ${message}</p>
-    `,
-    });
+//   try {
+//     const data = await resend.emails.send({
+//       from: "onboarding@resend.dev",
+//       to: "derekfletes@gmail.com",
+//       subject: "New Contact Form Submission",
+//       html: `
+//     <p>Name: ${name}</p>
+//     <p>Email: ${email}</p>
+//     <p>Message: ${message}</p>
+//     `,
+//     });
 
-    return json(data, 200);
-  } catch (error) {
-    return json({ error }, 400);
-  }
-}
+//     return json(data, 200);
+//   } catch (error) {
+//     return json({ error }, 400);
+//   }
+// }
 
 // export async function loader() {
 //   console.log(process.env.RESEND_API_KEY);
