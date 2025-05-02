@@ -8,8 +8,8 @@ import {
   Form,
 } from "@remix-run/react";
 
-import { Resend } from "resend";
-const resend = new Resend(process.env.RESEND_API_KEY);
+// import { Resend } from "resend";
+// const resend = new Resend(process.env.RESEND_API_KEY);
 
 import { Analytics } from "@vercel/analytics/react";
 
